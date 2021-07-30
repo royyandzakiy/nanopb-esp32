@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message TestMessage {
+    required int32 test_number = 1;
+    required int32 test_number2 = 2;
+    required int32 test_number3 = 3;
+    required string test_string = 4;
+}
